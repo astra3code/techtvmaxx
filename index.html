@@ -1,142 +1,582 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="A simple template to mobile landing page">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
-    <meta name="author" content="Alexandre Sanlim">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-
-    <title>TECH TV MAXX</title>
-
-    <!--add animation: gradient 60s ease infinite; to animation gradient, custom gradient here: https://cssgradient.io/-->
-    <style>
-      body {
-        background: rgb(255,64,129);
-background: linear-gradient(150deg, rgba(255,64,129,1) 0%, rgba(63,81,181,1) 21%, rgba(48,63,159,1) 52%);
-	background-size: 400% 400%;
-}
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-    </style>
-  </head>
-  <body class="bg-light">
-
-    <main class="container">
-        <div class="d-flex p-3 text-white my-3 rounded">
-            <div class="row">
-
-              <!-- SET YOUR LOGO HERE -->
-                <figure class="figure col-lg-3"><img src="https://i.postimg.cc/yYhKFFKt/2402183-ico-removebg-preview.png" class="figure-img img-fluid rounded"></figure>
-
-                <div class="col-lg-9">
-
-                    <h1>TECH TV MAX</h1>
-                    <p class="lead">Mussum Ipsum, cacilds vidis litro abertis. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis! Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Interagi no mé, cursus quis, vehicula ac nisi. Aenean aliquam molestie leo, vitae iaculis nisl.</p>
-                    <p><img src="src/img/badges/ios.svg" width="35%"><img src="https://cdn.rawgit.com/steverichey/google-play-badge-svg/master/img/en_get.svg" width="43%"></p>
-
-                </div>
-            </div>
-
-        </div>
-
-        <div id="myCarousel" class="carousel slide my-3 rounded" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#000"/></svg>
-        
-                <div class="container">
-                  <div class="carousel-caption">
-                    <h2>Benefit 1</h2>
-                    <p>Some representative placeholder content for the first slide of the carousel.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#000"/></svg>
-        
-                <div class="container">
-                  <div class="carousel-caption">
-                    <h2>Benefit 2</h2>
-                    <p>Some representative placeholder content for the second slide of the carousel.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#000"/></svg>
-        
-                <div class="container">
-                  <div class="carousel-caption">
-                    <h2>Benefit 3</h2>
-                    <p>Some representative placeholder content for the third slide of this carousel.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-      
-        <div class="my-3 p-3 rounded">
-          <h1 class="pb-2 mb-0 text-white">Screenshots</h1>
-
-          <!-- SET YOUR SCREENSHOTS HERE -->
-          <div class="row align-items-center">
-              <figure class="figure col-lg-3"><img src="https://i.postimg.cc/nzm4GkS7/Screenshot-20250703-143015.jpg" class="figure-img img-fluid rounded"></figure>
-              <figure class="figure col-lg-3"><img src="https://i.postimg.cc/Bnv2VswJ/Screenshot-20250703-162711.jpg" class="figure-img img-fluid rounded"></figure>
-              <figure class="figure col-lg-3"><img src="https://i.postimg.cc/4ySX46ZL/Screenshot-20250703-162946.jpg" class="figure-img img-fluid rounded"></figure>
-              <figure class="figure col-lg-3"><img src="https://i.postimg.cc/8P71K0Bq/Screenshot-20250703-163310.jpg" class="figure-img img-fluid rounded"></figure>
-          </div>
-
-        </div>
-
-      </main>
-
-      <footer class="text-muted py-5" style="background-color: black;">
-        <div class="container text-white">
-         
-          <p>Created with love from AstraTech by <a href="https://github.com/alexandresanlim">Astra3Code</a> fork on <a href="https://github.com/alexandresanlim/MobileApp.SimpleLandingPage.Template">Github</a>.</p>
-        </div>
-      </footer>
-      
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
-    -->
-
+<!DOCTYPE html> 
+<html> 
+<body>
+<head> 
+<title>TECH TV MAX</title> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     
 
-  </body>
+ <style> body { background-color:black; } .alignleft{ float:left; margin-left:3px;
+ margin-top:10px;
+ color:white; font-weight:bold; font-size:14px; } 
+ 
+ .alignleftt{ float:left; margin-left:10px; color:red; font-weight:bold; font-size:30px; } 
+ 
+ .alignright{ float:right; margin-right:10px; color:white;
+ margin-top:9px;
+ text-align:center ;
+ line-height:130%;
+ border-radius:4px;
+ width:17%;
+ background-color: #FF0000;
+ font-size:15px; font-weight:10px ; } 
+ 
+ h4{ margin-left:5px; color:silver; font-weight:bold; font-size:15px; }
+ 
+ .nta { position:relative ; overflow:hidden ; } div.scrollmenu { background-color: black; overflow: auto; white-space: nowrap; position:relative ; overflow-y:hidden ; } div.scrollmenu a { display: inline-block; color: white; text-align:center; padding: 4px; text-decoration: none; } div.scrollmenu a:hover { background-color: black; } .cen{ position:relative ; text-align:center; color:white; } .centered{ font-size:14px; font-weight:bold; position:absolute ; top:80%; left: 50%; transform:translate(-50%,-50%) } .cent{ font-size:auto; position:absolute ; top:95%; left: 50%; transform:translate(-50%,-50%) } .nt{ width: 105px; border-radius: 5px; height: 150px ; z-index:1; } 
+ 
+ .mnt{ width: 120px; border-radius: 2px; height: 80px; }
+ 
+  .nnt{ width: 99px; border-radius: 2px; height: 40px; }
+  
+  .nntt{ width: 96%; border-radius: 6px; height: 55px; }
+ 
+  .bty{ width: 135px; border-radius: 2px; height: 100px; }
+ 
+ .bottom-left {
+  position: absolute;
+  bottom: -20px;
+  left: -80;
+  font-size:15px;
+  font-weight:bold;
+}
+ 
+ 
+</style>
+
+
+<style>
+
+
+/* stylos para ajustar el carousel */
+.carousel.pointer-event {
+    touch-action: pan-y;
+    width: 100%;
+    height: %;
+    
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    height: ;
+    overflow: hidden;
+}
+.carousel-item {
+    width: 100%;
+    padding: 0px 0px;
+    height: 210px;
+}
+.carousel-item img {
+    width: 100%;
+    height: 210px;
+    object-fit: ;
+    padding: 0px;
+    border-radius: 0px;
+}
+
+
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 13px;
+  padding: 10px 14px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: Left;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px black;
+}
+
+
+.textt {
+  color: #f2f2f2;
+  font-size: 10px;
+  padding: 0px 14px;
+  position: absolute;
+  bottom: 4px;
+  width: 100%;
+  text-align: Left;
+  font-weight: normal;
+  text-shadow: 2px 2px 4px black;
+}
+
+
+.texttt {
+  color: #f2f2f2;
+  font-size: 10px;
+  padding: 20px 14px;
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+  text-align: Left;
+  font-weight: normal;
+  text-shadow: 2px 2px 3px black;
+}
+
+
+.textttt {
+  img-size: 0px;
+  padding: 10px 0px;
+  position: absolute;
+  bottom: 5px;
+  width: 28px;
+  height: 45px;
+  img-align: ;
+  
+}
+</style></head>
+
+<body>  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        
+<div class="carousel-inner">  
+
+<div class="carousel-item active"> <a class="item" href="https://xpola.yoo7.com/h13-page/?id=YUhSMGNEb3ZMMnR2Y0dseWJtbGpZUzV6ZEhKbFlXMTBkaTUwYnpvNE1EZ3dMMnhwZG1VdlpubFlVRnBzTW5wdU15ODJkM1ZzY0Rkb1ZXWnVMekV5TlRrMk5TNTBjM3gwYVhSc1pUMUJlbUZ0SUU5dVpTQlVaV3hsWjNKaGJTQkFkR1ZqYUhSMmJXRjRmR0Z3Y0d4dloyOWliRDFvZEhSd2N6b3ZMMmt1Y0c5emRHbHRaeTVqWXk5NVdXaExSa1pMZEM4eU5EQXlNVGd6TFdsamJ5MXlaVzF2ZG1WaVp5MXdjbVYyYVdWM0xuQnVadz09"> <img src="https://s3.eu-west-1.amazonaws.com/com.azamtv2019/WEB-Recovered-15746c8ff804bba677fb9a8c5bc47a98.jpg"> 
+<div class="texttt"></div>
+<div class="text"></div>
+<div class="textt"></div>
+</a> </div> 
+
+<div class="carousel-item"> <a class="item" href="https://xpola.yoo7.com/h13-page/?id=YUhSMGNEb3ZMMnR2Y0dseWJtbGpZUzV6ZEhKbFlXMTBkaTUwYnpvNE1EZ3dMMnhwZG1VdlpubFlVRnBzTW5wdU15ODJkM1ZzY0Rkb1ZXWnVMekV5TlRrMk5pNTBjM3gwYVhSc1pUMUJlbUZ0SUZSM2J5QlVaV3hsWjNKaGJTQkFkR1ZqYUhSMmJXRjRmR0Z3Y0d4dloyOWliRDFvZEhSd2N6b3ZMMmt1Y0c5emRHbHRaeTVqWXk5NVdXaExSa1pMZEM4eU5EQXlNVGd6TFdsamJ5MXlaVzF2ZG1WaVp5MXdjbVYyYVdWM0xuQnVadz09"> <img src="https://s3.eu-west-1.amazonaws.com/com.azamtv2019/Your%20love%20is%20my%20fortune%20web.png-f52def299b65639ccce95a7bd4400e60.jpg"> 
+<div class="texttt"></div>
+<div class="text"></div>
+<div class="textt"></div>
+</a> </div> 
+
+<div class="carousel-item"> <a class="item" href="LINK"> <img src="https://s3.eu-west-1.amazonaws.com/com.azamtv2019/WEB-Recovered-8129165f4e8606018eb3bb644dc41fdb.jpg"> 
+<div class="texttt"></div>
+<div class="text"></div>
+<div class="textt"></div>
+</a> </div> 
+
+<div class="carousel-item"> <a class="item" href="LINK"> <img src="https://s3.eu-west-1.amazonaws.com/com.azamtv2019/Your%20love%20is%20my%20fortune%20web.png-f52def299b65639ccce95a7bd4400e60.jpg"> 
+<div class="texttt"></div>
+<div class="text"></div>
+<div class="textt"></div>
+</a> </div> 
+
+</div></div><br>
+
+<div class="scrollmenu">
+    
+<a href="https://www.profitableratecpm.com/y8pz0w1a5?key=f71b7b2a9d63b15c84b24c7c337ee783"> <img class="nnt" src="https://i.postimg.cc/fySnb4Yr/98d62235e3b1744cb3d0b.jpg">
+<a href="https://t.me/techtvmax"> <img class="nnt" src="https://i.postimg.cc/rwNSHK7f/4cd9083a2d9c27be87986.jpg">
+<a href="https://www.profitableratecpm.com/y8pz0w1a5?key=f71b7b2a9d63b15c84b24c7c337ee783"> <img class="nnt" src="https://i.postimg.cc/rwKnXGCf/09eaa85600843a7f22956.jpg">
+<a href="https://www.profitableratecpm.com/y8pz0w1a5?key=f71b7b2a9d63b15c84b24c7c337ee783"> <img class="nnt" src="https://i.postimg.cc/y82zw89S/0c08c557667d6d5ac1268.jpg">
+
+</a></div> </div><p>
+
+<div class="nta"> <a> 
+<h4 class="alignleftt">|</h4>
+<h4 class="alignleft">LIVE TV</h4></a> </div>
+
+<div class="scrollmenu">
+
+<a href="https://xpola.yoo7.com/h13-page/?id=YUhSMGNEb3ZMMnR2Y0dseWJtbGpZUzV6ZEhKbFlXMTBkaTUwYnpvNE1EZ3dMMnhwZG1VdlpubFlVRnBzTW5wdU15ODJkM1ZzY0Rkb1ZXWnVMekV5TlRrMk55NTBjM3gwYVhSc1pUMVRhVzVsYldFZ1dtVjBkU0JVWld4bFozSmhiU0JBZEdWamFIUjJiV0Y0ZkdGd2NHeHZaMjlpYkQxb2RIUndjem92TDJrdWNHOXpkR2x0Wnk1all5OTVXV2hMUmtaTGRDOHlOREF5TVRnekxXbGpieTF5WlcxdmRtVmlaeTF3Y21WMmFXVjNMbkJ1Wnc9PQ=="> <img class="mnt" src="https://s3.eu-west-1.amazonaws.com/com.azamtv2019/kombolela-e8e1af8ff2498aff6aeddc99d26f68a9.jpg">
+<a href="LINK"> <img class="mnt" src="https://s3.eu-west-1.amazonaws.com/com.azamtv2019/WEB-Recovered-02f566cac7e2282b29468979f5533415.jpg">
+<a href="https://xpola.yoo7.com/h13-page/?id=YUhSMGNEb3ZMMnR2Y0dseWJtbGpZUzV6ZEhKbFlXMTBkaTUwYnpvNE1EZ3dMMnhwZG1VdlpubFlVRnBzTW5wdU15ODJkM1ZzY0Rkb1ZXWnVMekV5TlRrMk5TNTBjM3gwYVhSc1pUMUJlbUZ0SUU5dVpTQlVaV3hsWjNKaGJTQkFkR1ZqYUhSMmJXRjRmR0Z3Y0d4dloyOWliRDFvZEhSd2N6b3ZMMmt1Y0c5emRHbHRaeTVqWXk5NVdXaExSa1pMZEM4eU5EQXlNVGd6TFdsamJ5MXlaVzF2ZG1WaVp5MXdjbVYyYVdWM0xuQnVadz09"> <img class="mnt" src="https://s3.eu-west-1.amazonaws.com/com.azamtv2019/The%20Good%20Doctor%20-%20Web%20App%20-%20Generic%20%28English%29-f05cc7d2214a195b3df7bfdcb03f21fe.jpg">
+<a href="https://xpola.yoo7.com/h13-page/?id=YUhSMGNEb3ZMMnR2Y0dseWJtbGpZUzV6ZEhKbFlXMTBkaTUwYnpvNE1EZ3dMMnhwZG1VdlpubFlVRnBzTW5wdU15ODJkM1ZzY0Rkb1ZXWnVMekV5TlRrMk5TNTBjM3gwYVhSc1pUMUJlbUZ0SUU5dVpTQlVaV3hsWjNKaGJTQkFkR1ZqYUhSMmJXRjRmR0Z3Y0d4dloyOWliRDFvZEhSd2N6b3ZMMmt1Y0c5emRHbHRaeTVqWXk5NVdXaExSa1pMZEM4eU5EQXlNVGd6TFdsamJ5MXlaVzF2ZG1WaVp5MXdjbVYyYVdWM0xuQnVadz09"> <img class="mnt" src="https://s3.eu-west-1.amazonaws.com/com.azamtv2019/Coppa%20Italia%20-%20WebApp%20-73ff06ca5973ced538b98bbf05223c20.jpg">
+<a href="https://www.profitableratecpm.com/y8pz0w1a5?key=f71b7b2a9d63b15c84b24c7c337ee783"> <img class="mnt" src="https://s3.eu-west-1.amazonaws.com/com.azamtv2019/WEB%2029th-3c932984c174570c1335a2be22d049bc.jpg">
+<a href="https://www.profitableratecpm.com/y8pz0w1a5?key=f71b7b2a9d63b15c84b24c7c337ee783"> <img class="mnt" src="https://s3.eu-west-1.amazonaws.com/com.azamtv2019/WEB%2028th-49035958def93207d668fc6f7128a466.jpg"> 
+<a href="https://www.profitableratecpm.com/y8pz0w1a5?key=f71b7b2a9d63b15c84b24c7c337ee783"> <img class="mnt" src="https://s3.eu-west-1.amazonaws.com/com.azamtv2019/WEB-Recovered-662f30a6383a312986dd92c935000a2a.jpg">
+
+</div> <br>
+
+<div class="nta"> 
+<a href="https://otieu.com/4/8592646">
+<h4 class="alignleftt">|</h4>
+<h4 class="alignleft">SPORTS</h4>
+<h4 class="alignright">See All</h4></a></div>
+
+<div class="scrollmenu">
+
+<a href="http://front-main.eagle-4k.me:80/live/9fshhuw2z7/54hw7lwwb1/262957.m3u8
+"><div class="cen ag"> <img class="nt" src="https://s3.eu-west-1.amazonaws.com/com.azamtv2019/AzamSPorts1HD_25-5e2c5f7f93fafb9af45f80c74d30741f.png"></div>
+<a href="http://front-main.eagle-4k.me:80/live/9fshhuw2z7/54hw7lwwb1/262955.m3u8"><div class="cen ag"> <img class="nt" src="https://s3.eu-west-1.amazonaws.com/com.azamtv2019/cwc%20thumbnail-76f96db471ad65671ff71d6311e7bec3.png"></div>
+<a href="http://front-main.eagle-4k.me:80/live/9fshhuw2z7/54hw7lwwb1/262953.m3u8
+"><div class="cen ag"> <img class="nt" src="https://s3.eu-west-1.amazonaws.com/com.azamtv2019/Azam%20Sports%203%20HD-493f5ab59f412a83280b1d6220620048.png"></div>
+<a href="http://front-main.eagle-4k.me:80/live/9fshhuw2z7/54hw7lwwb1/1285333.m3u8
+"><div class="cen ag"> <img class="nt" src="https://s3.eu-west-1.amazonaws.com/com.azamtv2019/Azam%20Sports%204HD-19e431d04bbdf04f3de1a8fcbea5a136.png"></div>
+<a href="https://xpola.yoo7.com/h13-page/?id=YUhSMGNITTZMeTloZEdWdFpXTmtibUpoYkdGdVkyVnlMWFp2WlM1emVYTnNiaTVwWkM5c2FYWmxMMlZrY3k5VFVFOVVWa2hFTDIxd1pDOVRVRTlVVmtoRUxtMXdaSHgwYVhSc1pUMVRVRTlVVmlCVVpXeGxaM0poYlNCQWRHVmphSFIyYldGNGZHRndjR3h2WjI5aWJEMW9kSFJ3Y3pvdkwya3VjRzl6ZEdsdFp5NWpZeTk1V1doTFJrWkxkQzh5TkRBeU1UZ3pMV2xqYnkxeVpXMXZkbVZpWnkxd2NtVjJhV1YzTG5CdVozeGtjbTB0YVc1bWJ6MWpiR1ZoY210bGVYeGxOakJsWTJVNFpqQmtPVEEwTW1aallqVXlOVEE0TURVMVpXTTBPR1UxWlRveU1UTm1ORE00WW1RME9UWXhZMlJoT1RnM1pEUXhZamRtTVRVMFpqRmxOUT09"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/136ZCXVH/images.png"></div>
+<a href="https://xpola.yoo7.com/h13-page/?id=YUhSMGNITTZMeTloZEdWdFpXTmtibUpoYkdGdVkyVnlMWFp2WlM1emVYTnNiaTVwWkM5c2FYWmxMMlZrY3k5VFVFOVVWakpJUkM5dGNHUXZVMUJQVkZZeVNFUXViWEJrZkhScGRHeGxQVk5RVDFSV0lESWdWR1ZzWldkeVlXMGdRSFJsWTJoMGRtMWhlSHhoY0hCc2IyZHZZbXc5YUhSMGNITTZMeTlwTG5CdmMzUnBiV2N1WTJNdmVWbG9TMFpHUzNRdk1qUXdNakU0TXkxcFkyOHRjbVZ0YjNabFltY3RjSEpsZG1sbGR5NXdibWQ4WkhKdExXbHVabTg5WTJ4bFlYSnJaWGw4WlRabFpETm1aR1kyWlRsbU5Ea3haRGxsWVdReE1EbG1ZekJpTURCalptTTZNMkpqTm1NME5UY3lNbVZpTldaaE4ySXpORE5rWlRsaVptWmpOR1kzWXpjPQ=="><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/L4YRYx4w/images-1.png"></div>
+<a href="http://drewlive24.duckdns.org:4123?url=https%3A%2F%2Fddy6new.newkso.ru%2Fddy6%2Fpremium491%2Fmono.m3u8&data=T3JpZ2luPWh0dHBzOi8vZm9yY2VkdG9wbGF5Lnh5enxSZWZlcmVyPWh0dHBzOi8vZm9yY2VkdG9wbGF5Lnh5ei98VXNlci1hZ2VudD1Nb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0OyBydjoxMzkuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xMzkuMA%3D%3D"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/hvVMHXTL/images-2.jpg"></div>
+<a href="http://drewlive24.duckdns.org:4123?url=https%3A%2F%2Fddy6new.newkso.ru%2Fddy6%2Fpremium492%2Fmono.m3u8&data=T3JpZ2luPWh0dHBzOi8vZm9yY2VkdG9wbGF5Lnh5enxSZWZlcmVyPWh0dHBzOi8vZm9yY2VkdG9wbGF5Lnh5ei98VXNlci1hZ2VudD1Nb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0OyBydjoxMzkuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xMzkuMA%3D%3D"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/HL4YszmR/images-3.jpg"></div>
+<a href="http://drewlive24.duckdns.org:4123?url=https%3A%2F%2Fddy6new.newkso.ru%2Fddy6%2Fpremium493%2Fmono.m3u8&data=T3JpZ2luPWh0dHBzOi8vZm9yY2VkdG9wbGF5Lnh5enxSZWZlcmVyPWh0dHBzOi8vZm9yY2VkdG9wbGF5Lnh5ei98VXNlci1hZ2VudD1Nb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0OyBydjoxMzkuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xMzkuMA%3D%3D"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/MZcG1ymM/images-3.png"></div>
+<a href="https://xpola.yoo7.com/h13-page/?id=YUhSMGNITTZMeTloTVRJNVlXbDJiM1IwYkdsdVpXRnlMV0V1WVd0aGJXRnBhR1F1Ym1WMEwwOVVWRUl2YkdoeUxXNXBkSEp2TDJ4cGRtVXZZMnhwWlc1MGN5OWtZWE5vTDJWdVl5OTNaamgxYzJGbk5URmxMMjkxZEM5Mk1TOWlaRE5pTUdNek1UUm1abVkwWW1JeFlXSTBOamt6TXpVNFpqTmpaREprTXk5alpXNWpMbTF3Wkh4MGFYUnNaVDFVVGxRZ1UxQlBVbFJUSURFZ1ZHVnNaV2R5WVcwZ1FIUmxZMmgwZG0xaGVIeGhjSEJzYjJkdlltdzlhSFIwY0hNNkx5OXBMbkJ2YzNScGJXY3VZMk12ZVZsb1MwWkdTM1F2TWpRd01qRTRNeTFwWTI4dGNtVnRiM1psWW1jdGNISmxkbWxsZHk1d2JtZDhaSEp0TFdsdVptODlZMnhsWVhKclpYbDhZV1V5TmpnME5XSmtNek13TXpoaE9XTXdOemMwWVRBNU9ERXdNRGN5T1RRNk5qTmhZelkyTW1Sa1pUTXhNR05tWWpSall6Wm1PV0kwTTJJek5ERTVObVE9"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/TPCr5rqN/images-4.png"></div>
+<a href="http://194.61.140.183:8085/TNT-Sports-2/index.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/RVN5sHSk/images-13.png"></div>
+<a href="http://194.61.140.183:8085/TNT-Sports-3/index.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/pTwGspsH/images-15.png"></div>
+<a href="http://194.61.140.183:8085/TNT-Sports-4/index.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/G3BnzDhZ/images-14.png"></div>
+
+<a href="http://212.102.60.231/TSN_1/index.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/mk4xtz3D/images-5.png"></div>
+<a href="http://212.102.60.231/TSN_2/index.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/sDR6CCKV/images-6.png"></div>
+<a href="http://212.102.60.231/TSN_3/index.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/YqqFWXC6/images-7.png"></div>
+<a href="http://212.102.60.231/TSN_4/index.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/C5KKzQsd/images-8.png"></div>
+<a href="http://212.102.60.231/TSN_5/index.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/Gp1hk2xW/images-9.png"></div>
+
+</div><br>
+
+<div class="nta"> 
+<a href="https://otieu.com/4/8592646">
+<h4 class="alignleftt">|</h4>
+<h4 class="alignleft">MOVIES</h4>
+<h4 class="alignright">See All</h4></a></div>
+
+<div class="scrollmenu">
+
+<a href="http://colorstv.server2028.com/giatvplayout7/giatv-210044/tracks-v1a1/mono.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/3NQRtpJ6/unnamed.png"></div>
+
+<a href="http://gjntpkk.leadcool.xyz/live/2731921600/1135460737/189992.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/xCzPht3C/images-13.jpg"></div>
+<a href="http://tvmate.icu:8080/live/7686199/9576982/35254.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/wvRdP8rm/images-14.jpg"></div>
+<a href="http://tvmate.icu:8080/live/7686199/9576982/35252.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/mDPF5kRy/images-20.png"></div>
+<a href="http://tvmate.icu:8080/live/7686199/9576982/35251.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/ZRsxWXYV/images-21.png"></div>
+<a href="http://gjntpkk.leadcool.xyz/live/2731921600/1135460737/401534717.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/vmMbSZFx/images-15.jpg"></div>
+<a href="http://gjntpkk.leadcool.xyz/live/2731921600/1135460737/401534716.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/vmMbSZFx/images-15.jpg"></div>
+<a href="http://gjntpkk.leadcool.xyz/live/2731921600/1135460737/401534715.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/vmMbSZFx/images-15.jpg"></div>
+<a href="http://gjntpkk.leadcool.xyz/live/2731921600/1135460737/401534714.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/vmMbSZFx/images-15.jpg"></div>
+<a href="http://gjntpkk.leadcool.xyz/live/2731921600/1135460737/191462.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/5yQbHPF8/images-16.jpg"></div>
+<a href="http://tvmate.icu:8080/live/7686199/9576982/10260.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/ZR4hYbTt/images-22.png"></div>
+<a href="http://tvmate.icu:8080/live/7686199/9576982/46699.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/hG9f3tCH/images-23.png"></div>
+<a href="https://ft.fbcdntv247.cfd/memfs/c21d4225-12e5-4178-af0e-33711499d86e_output_0.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/SQnmCShC/images-31.png"></div>
+<a href="https://ft.fbcdntv247.cfd/memfs/2560c665-052e-4646-aaab-3ad367a7bc8e_output_0.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/rFRLHQnH/images-27.jpg"></div>
+<a href="https://pixeldrain.com/api/file/ehEQRUYX"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/Hkx8FJ8n/images-32.png"></div>
+<a href="http://front-main.eagle-4k.me:80/live/9fshhuw2z7/54hw7lwwb1/90164.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/7L5zC1c8/images-37.jpg"></div>
+
+
+
+
+
+
+
+
+</div> <br>
+
+<div class="nta"> 
+<a href="https://otieu.com/4/8592646">
+<h4 class="alignleftt">|</h4>
+<h4 class="alignleft">ENTERTAINMENT</h4>
+<h4 class="alignright">See All</h4></a></div>
+
+<div class="scrollmenu">
+
+<a href="http://front-main.eagle-4k.me:80/live/9fshhuw2z7/54hw7lwwb1/1285334.m3u8
+"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/44tZwKt6/images-38.jpg"></div>
+<a href="http://front-main.eagle-4k.me:80/live/9fshhuw2z7/54hw7lwwb1/1285337.m3u8
+"><div class="cen ag"> <img class="nt" src="https://s3.eu-west-1.amazonaws.com/com.azamtv2019/UTV-04f918655ba42932afda7876880bed6a.png"></div>
+<a href="http://194.61.140.183:8085/Drama/index.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/SK3LLHK2/images-17.png"></div>
+<a href="https://xpola.yoo7.com/h13-page/?id=YUhSMGNITTZMeTloZEdWdFpXTmtibUpoYkdGdVkyVnlMWFp2WlM1emVYTnNiaTVwWkM5c2FYWmxMMlZrY3k5TFNWaElSQzl0Y0dRdlMwbFlTRVF1YlhCa2ZIUnBkR3hsUFV0SldDQlVaV3hsWjNKaGJTQkFkR1ZqYUhSMmJXRjRmR0Z3Y0d4dloyOWliRDFvZEhSd2N6b3ZMMmt1Y0c5emRHbHRaeTVqWXk5NVdXaExSa1pMZEM4eU5EQXlNVGd6TFdsamJ5MXlaVzF2ZG1WaVp5MXdjbVYyYVdWM0xuQnVaM3hrY20wdGFXNW1iejFqYkdWaGNtdGxlWHcyTXpBd01EVXpaakkyT0RZME1HSTVZakppTmprMVkySTFZV0l3TmpjM1pUcGpZamd4TURjeVltUTJaVFJrTkdabU0ySXpNVGczWldabVpqYzVNamhrTVE9PQ=="><div class="cen ag"> <img class="nt" src="https://s3.eu-west-1.amazonaws.com/com.azamtv2019/KIX-6879986b54d3de9903a0657d60de02ff.png"></div>
+<a href="http://194.61.140.183:8085/Sky-Arts/index.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/XYKgbsxt/images-9.jpg"></div>
+<a href="http://194.61.140.183:8085/Sky-MAX/index.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/PqprDRcR/images-8.jpg"></div>
+<a href="http://tvmate.icu:8080/live/7686199/9576982/11651.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/tJhzDjKk/images-25.png"></div>
+<a href="http://drewlive24.duckdns.org:4123/?url=https%3A%2F%2Fwindnew.newkso.ru%2Fwind%2Fpremium131%2Fmono.m3u8&data=T3JpZ2luPWh0dHBzOi8vZm9yY2VkdG9wbGF5Lnh5enxSZWZlcmVyPWh0dHBzOi8vZm9yY2VkdG9wbGF5Lnh5ei98VXNlci1hZ2VudD1Nb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0OyBydjoxMzkuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xMzkuMA%3D%3D"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/pX20NJvR/images-28.png"></div>
+<a href="http://front-main.eagle-4k.me:80/live/9fshhuw2z7/54hw7lwwb1/262954.m3u8"><div class="cen ag"> <img class="nt" src="https://s3.eu-west-1.amazonaws.com/com.azamtv2019/My%20Secret%20-%20Thumbnail-04e2c15d68a896ce633e6b6b97050766.png"></div>
+<a href="http://front-main.eagle-4k.me:80/live/9fshhuw2z7/54hw7lwwb1/262956.m3u8
+"><div class="cen ag"> <img class="nt" src="https://s3.eu-west-1.amazonaws.com/com.azamtv2019/Your%20Love%20is%20My%20Fortune-%20Azam%20TWO-ab8ab125389adb2711c57c77d0793769.png"></div>
+<a href="http://front-main.eagle-4k.me:80/live/9fshhuw2z7/54hw7lwwb1/262952.m3u8"><div class="cen ag"> <img class="nt" src="https://s3.eu-west-1.amazonaws.com/com.azamtv2019/KOMBOLELA-SEASON-THUMBNAIL-LOGO-6aea543dd8eeff116f954acc6e71d1ac.png"></div>
+<a href="http://front-main.eagle-4k.me:80/live/9fshhuw2z7/54hw7lwwb1/252683.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/GhhD1jqJ/images-36.jpg"></div>
+
+
+
+
+
+
+</a></div><br>
+
+<div class="nta"> 
+<a href="https://www.profitableratecpm.com/y8pz0w1a5?key=f71b7b2a9d63b15c84b24c7c337ee783">
+<h4 class="alignleftt">|</h4>
+<h4 class="alignleft">DOCUMENTARY</h4>
+<h4 class="alignright">See All</h4></a></div>
+
+<div class="scrollmenu">
+
+<a href="https://travelxp-travelxp-1-eu.rakuten.wurl.tv/playlist.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/d3rXFqzY/images-4.jpg"></div>
+<a href="https://wildearth-plex.amagi.tv/master.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/C18j1dJz/images-5.jpg"></div>
+<a href="http://xlpore-samsungus.amagi.tv/playlist.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/5y6j0rfp/xplore-logo-png-seeklogo-516149.png"></div>
+<a href="http://194.61.140.183:8085/CBS-Reality/index.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/T14WGDWy/images-12.jpg"></div>
+<a href="http://tvmate.icu:8080/live/7686199/9576982/20866.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/4ybSyVxX/images-17.jpg"></div>
+<a href="http://tvmate.icu:8080/live/7686199/9576982/10538.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/s278qkCB/images-18.jpg"></div>
+<a href="http://tvmate.icu:8080/live/7686199/9576982/9861.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/63SvZmT0/images-19.jpg"></div>
+
+</a></div><br>
+
+<div class="nta"> 
+<a href="https://otieu.com/4/8592646">
+<h4 class="alignleftt">|</h4>
+<h4 class="alignleft">MUSIC</h4>
+<h4 class="alignright">See All</h4></a></div>
+
+<div class="scrollmenu">
+
+<a href="http://front-main.eagle-4k.me:80/live/9fshhuw2z7/54hw7lwwb1/30397.m3u8
+"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/K8TW5346/MTV-Base-Africa-2021-svg.png"></div>
+<a href="http://front-main.eagle-4k.me:80/live/9fshhuw2z7/54hw7lwwb1/30396.m3u8
+"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/yd3n7w9w/images-35.png"></div>
+
+<a href="https://jmp2.uk/plu-62ac44b44f1912000705274c.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/3RJ9z2zd/images-30.png"></div>
+<a href="https://jmp2.uk/plu-66866fc995e91900088768a5.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/0yw4Cdqv/images-25.jpg"></div>
+<a href="https://jmp2.uk/plu-66866f9f0642e500080f7f67.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/qqqb62G9/download.jpg"></div>
+<a href="https://jmp2.uk/plu-635bfb89b5cd9b0007ca9d63.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/Vvh7q5G5/images-29.png"></div>
+<a href="http://front-main.eagle-4k.me:80/live/9fshhuw2z7/54hw7lwwb1/152185.m3u8
+"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/MXJcjy1t/images-34.png"></div>
+<a href="http://front-main.eagle-4k.me:80/live/9fshhuw2z7/54hw7lwwb1/10977.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/tgVSNb6T/images-33.png"></div>
+<a href="http://front-main.eagle-4k.me:80/live/9fshhuw2z7/54hw7lwwb1/29501.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/sDFL6vmr/images-35.jpg"></div>
+<a href="http://front-main.eagle-4k.me:80/live/9fshhuw2z7/54hw7lwwb1/29499.m3u8
+"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/XvKmd3db/Trace-Africa-logo.webp"></div>
+
+
+</div><br>
+
+<div class="nta"> 
+<a href="https://otieu.com/4/8592646">
+<h4 class="alignleftt">|</h4>
+<h4 class="alignleft">NEWS</h4>
+<h4 class="alignright">See All</h4></a></div>
+
+<div class="scrollmenu">
+
+<a href="https://xpola.yoo7.com/h13-page/?id=YUhSMGNEb3ZMMjExTXpJME1USXhPQzV2YTI1cGNuWmhibUV1WTJ4MVlqbzRPRGd3TDJ4cGRtVXZObTE0TURFd01ERTFMelF4T1RZeE9UUTNMekk1TkRZdWRITjhkR2wwYkdVOVFrSkRJRmRQVWt4RUlFNUZWMU1nVkdWc1pXZHlZVzBnUUhSbFkyaDBkbTFoZUh4aGNIQnNiMmR2ZEd3OWFIUjBjSE02THk5cExuQnZjM1JwYldjdVkyTXZlVmxvUzBaR1MzUXZNalF3TWpFNE15MXBZMjh0Y21WdGIzWmxZbWN0Y0hKbGRtbGxkeTV3Ym1jPQ=="><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/DZLzsh1j/images-2.png"></div>
+<a href="https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/Wzf03rgL/images-10.png"></div>
+<a href="https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/2Sj3J3Zn/images-11.png"></div>
+<a href="http://194.61.140.183:8085/Sky-News/index.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/TYfMx4cX/images-7.jpg"></div>
+<a href="http://gjntpkk.leadcool.xyz/live/2731921600/1135460737/176619.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/mgKmy8qm/images-24.png"></div>
+
+
+</div><br>
+
+<div class="nta"> 
+<a href="https://otieu.com/4/8592646">
+<h4 class="alignleftt">|</h4>
+<h4 class="alignleft">KIDS</h4>
+<h4 class="alignright">See All</h4></a></div>
+
+<div class="scrollmenu">
+
+<a href="https://xpola.yoo7.com/h13-page/?id=YUhSMGNEb3ZMMnR2Y0dseWJtbGpZUzV6ZEhKbFlXMTBkaTUwYnpvNE1EZ3dMMnhwZG1VdlpubFlVRnBzTW5wdU15ODJkM1ZzY0Rkb1ZXWnVMekU0TlRBdWRITjhkR2wwYkdVOVRtbGpheUJLY2lCSVJDQlVaV3hsWjNKaGJTQkFkR1ZqYUhSMmJXRjRmR0Z3Y0d4dloyOWliRDFvZEhSd2N6b3ZMMmt1Y0c5emRHbHRaeTVqWXk5NVdXaExSa1pMZEM4eU5EQXlNVGd6TFdsamJ5MXlaVzF2ZG1WaVp5MXdjbVYyYVdWM0xuQnVadz09"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/qR5Gt8XX/images-1.jpg"></div>
+<a href="http://194.61.140.183:8085/Cartoonito/index.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/QxWxyPSk/images-6.jpg"></div>
+<a href="http://194.61.140.183:8085/Nick-toons/index.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/kMpCQcNr/images-11.jpg"></div>
+<a href="http://194.61.140.183:8085/Nickelodeon/index.m3u8"><div class="cen ag"> <img class="nt" src="https://s3.eu-west-1.amazonaws.com/com.azamtv2019/Nickelodeon-c94907e26fe2632f9719d79c97c93da3.png"></div>
+<a href="http://194.61.140.183:8085/Boomerang/index.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/rFfyzrgs/images-19.png"></div>
+<a href="http://tvmate.icu:8080/live/7686199/9576982/57349.m3u8"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/mr4hFFRt/images-26.png"></div>
+
+
+</div> <br>
+<div class="nta"> 
+<a href="https://otieu.com/4/8592646">
+<h4 class="alignleftt">|</h4>
+<h4 class="alignleft">RADIO</h4>
+<h4 class="alignright">See All</h4></a></div>
+
+<div class="scrollmenu">
+
+<a href="http://eu6.fastcast4u.com:5306/;"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/1XtY12Qp/images-20.jpg"></div>
+<a href="https://radio.crownmedia.co.tz:8443/crown"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/mkv107bN/images-27.png"></div>
+<a href="http://radio.wasafimedia.co.tz:8000/wasafi-fm"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/SQ2Vjhn3/images-21.jpg"></div>
+<a href="https://eatv.radioca.st/stream"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/nhRQvX5k/images-22.jpg"></div>
+</div><br>
+
+<div class="nta"> 
+<a href="https://otieu.com/4/8592646">
+<h4 class="alignleftt">|</h4>
+<h4 class="alignleft">SWAHILI</h4>
+<h4 class="alignright">See All</h4></a></div>
+
+<div class="scrollmenu">
+
+<a href="https://pixeldrain.com/l/i1nCZYWT?embed&style=purple_drain"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/h4JmZWBq/Squid-Game-season-3-poster.png"></div>
+<a href="https://pixeldrain.com/api/file/8EXPrmmQ"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/855jJ3G4/images-33.jpg"></div>
+<a href="https://pixeldrain.com/api/file/4Zt1vCYu"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/Pr3FWsh8/images-41.jpg"></div>
+<a href="https://pixeldrain.com/api/file/rXWBWo7T"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/SKWB7TgF/images-42.jpg"></div>
+<a href="https://pixeldrain.com/api/file/YkmkkVe7"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/PfyP3QS1/images-43.jpg"></div>
+<a href="https://pixeldrain.com/api/file/2ZxXF2Ne"><div class="cen ag"> <img class="nt" src="https://i.postimg.cc/ncXvbWjv/images-44.jpg"></div>
+
+
+</div><br>
+
+<script id="wpcp_disable_selection" type="text/javascript">
+//<![CDATA[
+var image_save_msg='You Can Not Save images!';
+	var no_menu_msg='Context Menu disabled!';
+	var smessage = "Content is protected !!";
+
+function disableEnterKey(e)
+{
+	if (e.ctrlKey){
+     var key;
+     if(window.event)
+          key = window.event.keyCode;     //IE
+     else
+          key = e.which;     //firefox (97)
+    //if (key != 17) alert(key);
+     if (key == 97 || key == 65 || key == 67 || key == 99 || key == 88 || key == 120 || key == 26 || key == 85  || key == 86 || key == 83 || key == 43)
+     {
+          show_wpcp_message('You are not allowed to copy content or view source');
+          return false;
+     }else
+     	return true;
+     }
+}
+
+function disable_copy(e)
+{	
+	var elemtype = e.target.nodeName;
+	var isSafari = /Safari/.test(navigator.userAgent) && /Apple Computer/.test(navigator.vendor);
+	elemtype = elemtype.toUpperCase();
+	var checker_IMG = '';
+	if (elemtype == "IMG" && checker_IMG == 'checked' && e.detail >= 2) {show_wpcp_message(alertMsg_IMG);return false;}
+	if (elemtype != "TEXT" && elemtype != "TEXTAREA" && elemtype != "INPUT" && elemtype != "PASSWORD" && elemtype != "SELECT" && elemtype != "OPTION" && elemtype != "EMBED")
+	{
+		if (smessage !== "" && e.detail == 2)
+			show_wpcp_message(smessage);
+		
+		if (isSafari)
+			return true;
+		else
+			return false;
+	}	
+}
+function disable_copy_ie()
+{,
+	var elemtype = window.event.srcElement.nodeName;
+	elemtype = elemtype.toUpperCase();
+	if (elemtype == "IMG") {show_wpcp_message(alertMsg_IMG);return false;}
+	if (elemtype != "TEXT" && elemtype != "TEXTAREA" && elemtype != "INPUT" && elemtype != "PASSWORD" && elemtype != "SELECT" && elemtype != "OPTION" && elemtype != "EMBED")
+	{
+		//alert(navigator.userAgent.indexOf('MSIE'));
+			//if (smessage !== "") show_wpcp_message(smessage);
+		return false;
+	}
+}	
+function reEnable()
+{
+	return true;
+}
+document.onkeydown = disableEnterKey;
+document.onselectstart = disable_copy_ie;
+if(navigator.userAgent.indexOf('MSIE')==-1)
+{
+	document.onmousedown = disable_copy;
+	document.onclick = reEnable;
+}
+function disableSelection(target)
+{
+    //For IE This code will work
+    if (typeof target.onselectstart!="undefined")
+    target.onselectstart = disable_copy_ie;
+    
+    //For Firefox This code will work
+    else if (typeof target.style.MozUserSelect!="undefined")
+    {target.style.MozUserSelect="none";}
+    
+    //All other  (ie: Opera) This code will work
+    else
+    target.onmousedown=function(){return false}
+    target.style.cursor = "default";
+}
+//Calling the JS function directly just after body load
+window.onload = function(){disableSelection(document.body);};
+//]]>
+</script>
+	<script id="wpcp_disable_Right_Click" type="text/javascript">
+	//<![CDATA[
+	document.ondragstart = function() { return false;}
+	/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+	Disable context menu on images by GreenLava Version 1.0
+	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+	    function nocontext(e) {
+	       return false;
+	    }
+	    document.oncontextmenu = nocontext;
+	//]]>
+	</script>
+<style>
+.unselectable
+{
+-moz-user-select:none;
+-webkit-user-select:none;
+cursor: default;
+}
+html
+{
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+</style>
+<script id="wpcp_css_disable_selection" type="text/javascript">
+var e = document.getElementsByTagName('body')[0];
+if(e)
+{
+	e.setAttribute('unselectable',on);
+}
+
+<html lang="es">
+<head>
+
+<meta charset="UTF-8">
+<title>https://t.me/htmlcoding_html_coding_free</title>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+<style>
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+	#btn-mas{
+		display: none;
+	}
+	.container{
+		position: fixed;
+		bottom: 20px;
+		right: 20px;
+	}
+	.redes a, .icon-mas2{
+		display: block;
+		text-decoration: none;
+		background: #cc2b2b;
+		color: #fff;
+		width: 55px;
+		height: 55px;
+		line-height: 55px;
+		text-align: center;
+		border-radius: 50%;
+		box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+		transition: all 500ms ease;
+	}
+	.redes a:hover{
+		background: #fff;
+		color: #cc2b2b;
+	}
+	.redes a{
+		margin-bottom: -15px;
+		opacity: 0;
+		visibility: hidden;
+	}
+	#btn-mas:checked~ .redes a{
+		margin-bottom: 10px;
+		opacity: 1;
+		visibility: visible;
+	}
+	.icon-mas2{
+		cursor: pointer;
+		background: #f44141;
+		font-size: 23px;
+	}
+	#btn-mas:checked ~ .btn-mas .icon-mas2{
+		transform: rotate(137deg);
+		font-size: 25px;
+	}
+	</style>
+
+</body>
 </html>
